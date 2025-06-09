@@ -44,11 +44,21 @@
         </ul>
     </section>
 
-    <section id="prenota">
-        <h2>Prenota una consulenza</h2>
-        <p>Per richiedere un appuntamento online o in presenza, contattami via email o telefono.</p>
-        <a href="mailto:valentinavetromile.psi@gmail.com" class="cta-button">Scrivimi ora</a>
-    </section>
+   <section id="prenota">
+    <h2>Prenota una consulenza</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="booking-form">
+        <label for="name">Nome e Cognome</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Richiesta / Preferenze orari</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Invia richiesta</button>
+    </form>
+</section>
 
     <section id="contatti">
         <h2>Contatti</h2>
