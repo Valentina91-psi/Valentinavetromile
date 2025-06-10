@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valentina Vetromile - Psicologa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo Valentina Vetromile" class="logo" />
+        <h1>Valentina Vetromile</h1>
+        <p>Psicologa Clinica · Analista del Comportamento</p>
+    </header>
+
+    <nav>
+        <a href="#chi-sono">Chi sono</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#prenota">Prenota</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+
+    <section id="hero">
+        <img src="studio.jpg" alt="Studio di psicologia" class="hero-img" />
+        <div class="hero-text">
+            <h2>Benvenutə nel mio studio</h2>
+            <p>Un luogo sicuro per esplorare, comprendere e crescere.</p>
+            <a href="#prenota" class="cta-button">Prenota una consulenza</a>
+        </div>
+    </section>
+
+    <section id="chi-sono">
+        <h2>Chi sono</h2>
+        <p>Sono una psicologa clinica con esperienza nell'analisi del comportamento, specializzanda in psicoterapia strategica. Offro supporto individuale, parent training e interventi con bambini e adolescenti.</p>
+    </section>
+
+   <section id="servizi">
+    <h2>I miei servizi</h2>
+    <div class="services">
+        <div class="service-card">
+            <h3>Consulenze psicologiche individuali</h3>
+            <p>Supporto personalizzato per affrontare difficoltà emotive, relazionali e momenti di cambiamento nella vita.</p>
+        </div>
+        <div class="service-card">
+            <h3>Supporto genitoriale</h3>
+            <p>Spazi di ascolto e accompagnamento per affrontare le sfide educative e relazionali in famiglia.</p>
+        </div>
+        <div class="service-card">
+            <h3>Valutazione cognitiva nei bambini</h3>
+            <p>Somministrazione di test specifici per comprendere il funzionamento cognitivo e individuare eventuali potenzialità o difficoltà di sviluppo.</p>
+        </div>
+    </div>
+</section>
+
+
+   <section id="prenota">
+    <h2>Prenota una consulenza</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="booking-form">
+        <label for="name">Nome e Cognome</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Richiesta / Preferenze orari</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Invia richiesta</button>
+    </form>
+</section>
+
+    <section id="contatti">
+        <h2>Contatti</h2>
+        <p>Email: <a href="mailto:valentinavetromile.psi@gmail.com">valentinavetromile.psi@gmail.com</a></p>
+        <p>Telefono: <a href="tel:+393275599699">327 559 9699</a></p>
+        <p>Studio: Via Diego Taiani 29, Salerno</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Valentina Vetromile - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
