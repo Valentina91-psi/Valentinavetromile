@@ -9,46 +9,71 @@
 </head>
 
 <body>
-    <!-- Sezione Hero -->
-    <header class="hero">
-        <div class="hero-content">
-            <img src="logo.svg" alt="Logo Valentina Vetromile" class="logo">
-            <h1>Benvenuti nel mio studio</h1>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.svg" alt="Logo Valentina Vetromile">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-sono">Chi sono</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#prenota">Prenota</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Sezione Servizi -->
-    <section id="servizi">
-        <h2>I miei servizi</h2>
-        <ul>
-            <li>Supporto psicologico individuale</li>
-            <li>Parent training</li>
-            <li>Valutazione cognitiva nel bambino</li>
-            <li>Sostegno per adolescenti e genitori</li>
-        </ul>
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Benvenuti nel mio studio</h1>
+        </div>
     </section>
 
-    <!-- Sezione Prenotazione -->
-    <section id="prenota">
-        <h2>Prenota un appuntamento</h2>
-        <form action="mailto:valentinavetromile.psi@gmail.com" method="POST" enctype="text/plain">
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome" required><br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="messaggio">Messaggio:</label><br>
-            <textarea id="messaggio" name="messaggio" rows="4" required></textarea><br><br>
-
-            <button type="submit">Invia prenotazione</button>
-        </form>
+    <!-- Chi sono -->
+    <section id="chi-sono" class="about">
+        <div class="container">
+            <h2>Chi sono</h2>
+            <p>Sono Valentina Vetromile, psicologa clinica e analista del comportamento. Offro supporto individuale, parent training, valutazioni cognitive per bambini e sostegno per adolescenti e genitori. Lavoro con passione per aiutare le persone a raggiungere il loro benessere psicologico.</p>
+        </div>
     </section>
-<footer style="background-color: #000; color: #fff; text-align: center; padding: 20px; margin-top: 40px;">
-    <p>&copy; 2024 Valentina Vetromile. Tutti i diritti riservati.</p>
-    <p>Telefono: 3275599699 | Email: <a href="mailto:valentinavetromile.psi@gmail.com" style="color: #fff; text-decoration: underline;">valentinavetromile.psi@gmail.com</a></p>
-</footer>
 
-</body>
+    <!-- Servizi -->
+    <section id="servizi" class="services">
+        <div class="container">
+            <h2>I miei servizi</h2>
+            <ul>
+                <li>Supporto psicologico individuale</li>
+                <li>Parent training</li>
+                <li>Valutazione cognitiva nel bambino</li>
+                <li>Sostegno per adolescenti e genitori</li>
+            </ul>
+        </div>
+    </section>
 
-</html>
+    <!-- Prenotazioni -->
+    <section id="prenota" class="booking">
+        <div class="container">
+            <h2>Prenota un appuntamento</h2>
+            <form action="mailto:valentinavetromile.psi@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Invia richiesta</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Valentina Vetromile. Tutti i diritti riservati.</p>
+        <p>Telefono: 3275599699 | Email: <a href="mailto:valentinavetromile.psi@gmail.com">valen
+
