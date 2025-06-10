@@ -23,7 +23,7 @@ li {
 .hero {
     position: relative;
     text-align: center;
-    background: url('header.jpg') no-repeat center center/cover;
+    background: url('studio.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
