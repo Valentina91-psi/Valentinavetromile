@@ -255,3 +255,22 @@ footer {
         box-sizing: border-box;
     }
 }
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 60px 20px; /* più spazio sopra e ai lati */
+    }
+
+    .hero h1 {
+        font-size: 32px; /* riduco la dimensione del titolo su mobile */
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 16px; /* testo descrittivo più piccolo e leggibile */
+        text-align: center;
+    }
+
+    .hero img {
+        filter: brightness(0.6); /* scurisco l'immagine per migliorare il contrasto del testo */
+    }
+}
